@@ -50,8 +50,6 @@ class Grid {
           textSize(resolution / 2);
           fill(spot.newState === 1 ? 0 : 255);
           rect(x, y, resolution, resolution);
-          // fill(0, 255, 0);
-          // text(`${spot.oldState} ${spot.newState}`, x + resolution / 10 , y + resolution / 2);
         }
 
         spot.castStates();
